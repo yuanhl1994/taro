@@ -1,5 +1,57 @@
 <a name=""></a>
-# [](https://github.com/NervJS/taro/compare/v2.1.5...v) (2020-04-16)
+# [](https://github.com/NervJS/taro/compare/v2.2.0-beta.0...v) (2020-04-20)
+
+
+
+<a name="2.2.0-beta.0"></a>
+# [2.2.0-beta.0](https://github.com/NervJS/taro/compare/v2.1.5...v2.2.0-beta.0) (2020-04-20)
+
+
+### Bug Fixes
+
+* **helper:** 修正 createBabelRegister 引入 [@babel](https://github.com/babel)/runtime 问题 ([759a359](https://github.com/NervJS/taro/commit/759a359))
+* **helper:** 补充 babel-plugin-transform-react-jsx ([89ae733](https://github.com/NervJS/taro/commit/89ae733))
+* **service:** 修复从 npm 包中引入插件的问题 ([de1dd47](https://github.com/NervJS/taro/commit/de1dd47))
+* 修复 Animation.export() 方法的类型, close [#6025](https://github.com/NervJS/taro/issues/6025) ([973d1cd](https://github.com/NervJS/taro/commit/973d1cd))
+* 修复编译问题 ([d0a120b](https://github.com/NervJS/taro/commit/d0a120b))
+* **taro:** 修复合并引发的问题 ([a8fe54f](https://github.com/NervJS/taro/commit/a8fe54f))
+* autoplay 非中断条件下，自动重启 ([43bc091](https://github.com/NervJS/taro/commit/43bc091))
+* 抽离 getModuleDefaultExport 到 helper 中 ([2c84d3d](https://github.com/NervJS/taro/commit/2c84d3d))
+* **docs:** invalid link ([1fee95c](https://github.com/NervJS/taro/commit/1fee95c))
+* **rn-runner:**  app 配置中找不到 props ([3ea2ff6](https://github.com/NervJS/taro/commit/3ea2ff6))
+* **taro-service:** 修复 npm 包中插件解析 ([aa18df2](https://github.com/NervJS/taro/commit/aa18df2))
+* **taro-service:** 增加命令快速注册执行方法 ([0bcf884](https://github.com/NervJS/taro/commit/0bcf884))
+* **taro-service:** 增加插件初试架构 ([d04ce47](https://github.com/NervJS/taro/commit/d04ce47))
+* value is never read ([c643bcc](https://github.com/NervJS/taro/commit/c643bcc))
+
+
+### Features
+
+* **helper:** 封装 watch ([5570974](https://github.com/NervJS/taro/commit/5570974))
+* **rn:** rn 端插件化改造 ([442f9b3](https://github.com/NervJS/taro/commit/442f9b3))
+* **rn:** 完成 hooks 传递和执行 ([044440b](https://github.com/NervJS/taro/commit/044440b))
+* **service:** 增加 debug ([db1118b](https://github.com/NervJS/taro/commit/db1118b))
+* 增加 rn 和 h5 编译 ([0656a3c](https://github.com/NervJS/taro/commit/0656a3c))
+* 增加 ui 编译 && 优化代码 ([c4f27d4](https://github.com/NervJS/taro/commit/c4f27d4))
+* 完善命令行拆分 ([84376c7](https://github.com/NervJS/taro/commit/84376c7))
+* 完善小程序编译流程 ([edd6626](https://github.com/NervJS/taro/commit/edd6626))
+* 完善快应用编译流程 ([e25dd57](https://github.com/NervJS/taro/commit/e25dd57))
+* 小程序编译流程拆分 ([e30890e](https://github.com/NervJS/taro/commit/e30890e))
+* 跑通小程序流程 ([13cc43d](https://github.com/NervJS/taro/commit/13cc43d))
+* 输出 taro 版本号 ([a26cccb](https://github.com/NervJS/taro/commit/a26cccb))
+* **cli:** 初始化注册平台编译方法的参数 ([94c62cb](https://github.com/NervJS/taro/commit/94c62cb))
+* **cli:** 尝试拆分命令行 ([49578ac](https://github.com/NervJS/taro/commit/49578ac))
+* **cli:** 尝试拆分编译流程 ([951b886](https://github.com/NervJS/taro/commit/951b886))
+* **helper:** 增加辅助模块包 ([654a34f](https://github.com/NervJS/taro/commit/654a34f))
+* **mini-runner:** 小程序编译改造 ([a00abc0](https://github.com/NervJS/taro/commit/a00abc0))
+* **rn_runner:** 将app.js 里的 TaroRouter.initRouter 移入构造函数，方便通过 props 配置路由 ([84aaf97](https://github.com/NervJS/taro/commit/84aaf97))
+* **service:** 优化 pluginContext 上 api 挂载 ([2aae2fa](https://github.com/NervJS/taro/commit/2aae2fa))
+* **service:** 增加 Hooks 执行类型 ([615bea5](https://github.com/NervJS/taro/commit/615bea5))
+* **service:** 增加 platforms 快捷注册方法 ([b592fec](https://github.com/NervJS/taro/commit/b592fec))
+* **service:** 增加presets 和 plugins 解析 ([8a716ce](https://github.com/NervJS/taro/commit/8a716ce))
+* **service:** 实现注入/执行插件方法 ([25aad46](https://github.com/NervJS/taro/commit/25aad46))
+* **service:** 调整执行 hooks 方法 ([3296e58](https://github.com/NervJS/taro/commit/3296e58))
+* **taro-service:** 调整 service 依赖 ([ba5157e](https://github.com/NervJS/taro/commit/ba5157e))
 
 
 
